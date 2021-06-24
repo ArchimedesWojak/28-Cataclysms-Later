@@ -1,0 +1,22 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "28_cataclysms_later",
+    "name": "28 Cataclysms Later",
+    "authors": [ "Crow | anothersimulacrum" ],
+    "maintainers": [ "ArchimedesWojak" ],
+    "description": "Zombies are 2x faster and 2x more resilient (Makes the setting more akin to 28 Days Later, Left 4 Dead, World War Z (ect).",
+    "category": "balance",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "stat": { "name": "speed", "modifier": 2.0 }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "stat": { "name": "hp", "modifier": 2.0 }
+  }
+]
