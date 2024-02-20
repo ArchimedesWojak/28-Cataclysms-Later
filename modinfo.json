@@ -17,6 +17,6 @@
   {
     "type": "monster_adjustment",
     "species": "ZOMBIE",
-    "stat": { "name": "hp", "modifier": 2.0 }
+    "stat": { "name": "hp", "modifier": 0.5 }
   }
 ]
